@@ -10,7 +10,7 @@ class DownloadCaptions(Step):
         # download the package by:  pip install pytube
         for url in data:
             print('downloading caption for', url)
-            if utils.caption.file_exists(url):
+            if utils.caption_file_exists(url):
                 print('found existing caption file')
                 continue
 

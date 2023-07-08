@@ -10,7 +10,7 @@ class Utils:
         pass
 
     def create_dirs(self):
-        os.makedirs(DOWNLOADS_DIR, exist_ok = True)
+        os.makedirs(DOWNLOADS_DIR, exist_ok=True)
         os.makedirs(VIDEOS_DIR, exist_ok=True)
         os.makedirs(CAPTIONS_DIR, exist_ok=True)
 
